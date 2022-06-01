@@ -1,0 +1,26 @@
+.task {
+    display: flex;
+    justify-content: space-between;
+}
+
+.create-task {
+    margin-top: 50px;
+}
+
+.task__edit, .task__delete {
+    cursor: pointer;
+}
+
+.task__edit-form {
+    display: none;
+}
+.hidden{
+    display:none;
+}
+.notification{
+    width: 260px;
+}
+.notification__position{
+    display: flex;
+    justify-content: flex-end;
+}
