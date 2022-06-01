@@ -6,10 +6,10 @@ const taskController = require('./controllers/task');
 router.get('/tasks', taskController.listTasks);
 
 // Route pour ajouter une tache
-router.post('/tasks', taskController.listCreat);
+router.post('/tasks', taskController.taskCreat);
 // Route pour modifier une tache
-router.put('/tasks/:id',taskController.listUpDate)
+router.put('/tasks/:id',taskController.taskUpDate)
 // Route pour supprimer une tache
-router.delete('/tasks/:id',taskController.listDestroy)
+router.delete('/tasks/:id',taskController.taskDestroy)
 
 module.exports = router;
